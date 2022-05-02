@@ -1,4 +1,4 @@
-## TechnoTrainer
+## TRAINING DEMO APPLICATION 
 ## Java based application to Demonstrate :
 * How unit test cases execute via maven
 * Generate a test report

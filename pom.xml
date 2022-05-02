@@ -8,11 +8,11 @@
         <version>2.3.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.technotrainer</groupId>
+    <groupId>com.training</groupId>
     <artifactId>tt-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>webapp</name>
-    <description>Project for hands-on training </description>
+    <description>Demo Application for hands-on training </description>
 
     <properties>
         <java.version>1.8</java.version>
