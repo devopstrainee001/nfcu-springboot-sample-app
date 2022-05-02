@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,7 +49,7 @@ public class WebPageControllerTest {
         logger.info("Default output is "+output);
         Assert.assertThat(output, CoreMatchers.containsString("<b> Participant </b>"));
     }
-
+    @Ignore
     @Test
     public void welcomeWithUserNameAsElon() throws IOException, URISyntaxException {
         String htmlString = getString();
@@ -57,6 +58,7 @@ public class WebPageControllerTest {
         Assert.assertThat(output, CoreMatchers.containsString("<b> Elon </b>"));
     }
 
+    @Ignore
     @Test
     public void welcomeWithUserNameAsRishi() throws IOException, URISyntaxException {
         String htmlString = getString();
