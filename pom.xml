@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.handson.training</groupId>
-    <artifactId>tt-java</artifactId>
+    <artifactId>NFCU-Training-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>webapp</name>
     <description>Demo Application for hands-on training </description>
